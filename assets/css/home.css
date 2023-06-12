@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* MY PORJECT */
+.myproject {
+  background-color: #fff;
+}
+
+/* EXP */
+.experience {
+  background-color: #000000;
+}
+
+.html {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  flex-grow: 1;
+  height: 10px;
+}
+
+.css {
+  display: flex;
+  align-items: center;
+}
+
+.bootstrap {
+  display: flex;
+  align-items: center;
+}
+
+.javascript {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+#col-project {
+  flex-wrap: wrap;
+}
+
+#col-project1 {
+  flex-wrap: wrap;
+}
+}
